@@ -1,0 +1,156 @@
+:root {
+    --primary-white: hsl(0, 22%, 90%);
+    --white-color: hsl(0, 0%, 100%);
+    --primary-green: hsl(130, 83%, 48%);
+    --primary-grey: hsl(0, 5%, 70%);
+    --primary-orange: rgb(255, 96, 5);
+    --black-color: hsla(0, 0%, 4%, 0.781);
+    --font: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--white-color);
+}
+/* -------------------------------------- NavBar Style */
+header{
+    background-color: var(--white-color);
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+}
+.navbar .collapse .navbar-nav {
+    margin-left: auto;
+}
+.navbar .collapse .navbar-nav .nav-item{
+    border: 2px solid green;
+
+}
+.navbar .collapse .navbar-nav .nav-item .nav-click{
+    text-align: center;
+    background-color: var(--primary-green);
+}
+/* -------------------------------------- Content Style */
+.content{
+    min-height: 100vh;
+    border: 2px solid red;
+}
+.content .part-1{
+    border: 2px solid yellow;
+}
+.content .part-1 .title{
+    font-size: 1em;
+    color:var(--primary-orange);
+}
+.content .part-1 .title svg{
+    margin-top: 2px;
+    margin-right: 10px;
+    color: var(--primary-orange);
+}
+.content .part-1 .big-title{
+    font-size: 2.6em;
+    font-weight: bold;
+    padding-right: 1.8em;
+}
+.content .part-1 .text{
+    color: var(--primary-grey);
+    padding-right: 2.5em;
+   
+}
+.content .part-1 .input-1{
+    background-color: var(--white-color);
+}
+.content .part-1 .input-2{
+    background-color: var(--primary-green);
+}
+.content .part-1 .feedback{
+    margin-top: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.content .part-1 .feedback svg{
+    color:yellow;
+}
+.content .part-1 .pics{
+    border: 2px solid red;
+    min-height: 30vh;
+}
+.content .part-1 .pics svg{
+    margin-top: 2px;
+    margin-right: 5px;
+    color: var(--primary-green);
+}
+.content .part-1 .pics p{
+    font-weight: bold;
+}
+
+.content .part-1 .pics img{
+    width: 5%;
+    margin: auto;
+    margin-left: -5px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+}
+.content .part-2{
+    background-image: url(/assets/imgs/max-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.content .part-2{
+    position: relative;
+}
+.content .part-2 .circle .circle1{
+    position: absolute;
+    top: 5px;
+    left: 45%;
+}
+.content .part-2 .circle .circle1 img{
+    width: 15%;
+    margin: auto;
+    border-radius: 50%;
+}
+.content .part-2 .circle .circle2{
+    position: absolute;
+    text-align: end;
+    width: 25%;
+    top: 10%;
+    left: 78%;
+}
+.content .part-2 .circle .circle2 img{
+    width: 30%;
+    margin: auto;
+    border-radius: 50%;
+}
+.content .part-2 .circle .circle3{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    margin: -40px;
+}
+.content .part-2 .circle .circle3 img{
+    width: 12%;
+    margin: auto;
+    border-radius: 50%;
+}
+.content .part-2 .name{
+    position: absolute;
+    top: 90%;
+    left: 20px;
+    color: var(--white-color);
+    font-weight: bold;
+}
+.content .part-2 .subname{
+    font-weight: bold;
+    position: absolute;
+    top: 85%;
+    left: 78%;
+    color: var(--white-color);
+}
+.content .part-2 .subname .position{
+    font-weight: normal;
+}
